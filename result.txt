@@ -1,0 +1,115 @@
+<MWPM>
+
+error rate = 0.05
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 5
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:05<00:00, 1936.94it/s]
+0.0002297624289058149 seconds
+logical error rates: 159/10000 0.0159
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 9
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:22<00:00, 434.95it/s]
+0.0014537343462463468 seconds
+logical error rates: 20/10000 0.002
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 13
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [01:22<00:00, 121.66it/s]
+0.006490799139020964 seconds
+logical error rates: 1/10000 0.0001
+
+
+error rate = 0.10
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 5
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:08<00:00, 1226.82it/s]
+0.0005278969943523407 seconds
+logical error rates: 1364/10000 0.1364
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 9
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:58<00:00, 169.61it/s]
+0.005044768617209047 seconds
+logical error rates: 701/10000 0.0701
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 13
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [04:55<00:00, 33.88it/s]
+0.027763163734041155 seconds
+logical error rates: 367/10000 0.0367
+
+
+error rate = 0.15
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 5
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:11<00:00, 845.60it/s]
+0.0008949848561547696 seconds
+logical error rates: 3865/10000 0.3865
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 9
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [01:54<00:00, 87.63it/s]
+0.010563474769797175 seconds
+logical error rates: 3821/10000 0.3821
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 13
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [10:53<00:00, 15.31it/s]
+0.0635596369214356 seconds
+logical error rates: 3826/10000 0.3826
+
+error rate = 0.20
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 5
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:15<00:00, 653.04it/s]
+0.0012460103577002883 seconds
+logical error rates: 6214/10000 0.6214
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 9
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [02:53<00:00, 57.50it/s]
+0.01655930974832736 seconds
+logical error rates: 7235/10000 0.7235
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ python decoder_by_MWPM.py 
+Toric code simulation // code distance is 13
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [17:49<00:00,  9.35it/s]
+0.10519095882028341 seconds
+logical error rates: 7903/10000 0.7903
+
+error rate = 0.14 ####################################################################################
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ /home/mujkai/anaconda3/envs/re_yamasaki/bin/python /home/mujkai/study/my_sim/mwpm/decoder_by_MWPM.py
+Toric code simulation // code distance is 5
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:11<00:00, 865.78it/s]
+0.0008469446370992045 seconds
+logical error rates: 3339/10000 0.3339
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ /home/mujkai/anaconda3/envs/re_yamasaki/bin/python /home/mujkai/study/my_sim/mwpm/decoder_by_MWPM.py
+Toric code simulation // code distance is 7
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:38<00:00, 260.93it/s]
+0.00326689112400245 seconds
+logical error rates: 3109/10000 0.3109
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ /home/mujkai/anaconda3/envs/re_yamasaki/bin/python /home/mujkai/study/my_sim/mwpm/decoder_by_MWPM.py
+Toric code simulation // code distance is 9
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [01:46<00:00, 93.63it/s]
+0.00977548227319994 seconds
+logical error rates: 3118/10000 0.3118
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ /home/mujkai/anaconda3/envs/re_yamasaki/bin/python /home/mujkai/study/my_sim/mwpm/decoder_by_MWPM.py
+Toric code simulation // code distance is 11
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [04:25<00:00, 37.73it/s]
+0.02518127040439049 seconds
+logical error rates: 2997/10000 0.2997
+
+(re_yamasaki) mujkai@mujkai-M12SWA-TF:~/study/my_sim/mwpm$ /home/mujkai/anaconda3/envs/re_yamasaki/bin/python /home/mujkai/study/my_sim/mwpm/decoder_by_MWPM.py
+Toric code simulation // code distance is 13
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [09:56<00:00, 16.76it/s]
+0.057816739834914734 seconds
+logical error rates: 2856/10000 0.2856
